@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- School Name -->
+        <TextView
+            android:id="@+id/schoolNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adhira International School"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:padding="8dp"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:id="@+id/schoolAboutTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/info"
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/schoolMission"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mission"
+            android:textSize="24sp"
+            android:padding="8dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/schoolMissionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/mission"
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/schoolVision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vision"
+            android:textSize="24sp"
+            android:padding="8dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/schoolVisionTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/vision"
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:padding="8dp"/>
+
+        <TextView
+            android:id="@+id/schoolFeature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Features"
+            android:textSize="24sp"
+            android:padding="8dp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- PROFESSIONALLY TRAINED TEACHER, COUNSELOR AND SPECIAL EDUCATOR"
+                android:textSize="14sp"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- PLAY GROUND"
+                android:textSize="14sp"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- LIFE SKILL DEVELOPMENT WITH HANDS ON EXPERIENCE"
+                android:textSize="14sp"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- FOCUS ON INDIAN CULTURE, CORE VALUE AND SANSKAR"
+                android:textSize="14sp"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- REMEDIAL CLASS FOR CONCEPT CLARITY"
+                android:textSize="14sp"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- EXPOSURE TO COMPETITIVE EXAMINATION"
+                android:textSize="14sp"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- CLUB ACTIVITIES FOR CHANNELIZING HIDDEN POTENTIAL"
+                android:textSize="14sp"
+                android:paddingBottom="8dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="- EDUCATIONAL VISIT"
+                android:textSize="14sp"
+                android:paddingBottom="8dp" />
+
+        </LinearLayout>
+
+        <!-- Image Gallery -->
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:padding="8dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <!-- Add images here -->
+                <ImageView
+                    android:id="@+id/image1"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/adhira1" />
+
+                <ImageView
+                    android:id="@+id/image2"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/adhira2" />
+
+                <ImageView
+                    android:id="@+id/image3"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/adhira3" />
+
+                <ImageView
+                    android:id="@+id/image4"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/adhira4" />
+
+                <ImageView
+                    android:id="@+id/image5"
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:layout_marginRight="8dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/adhira5" />
+
+            </LinearLayout>
+        </HorizontalScrollView>
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:padding="8dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/image6"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginRight="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/adhira6" />
+
+        <ImageView
+            android:id="@+id/image7"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginRight="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/adhira7" />
+
+        <ImageView
+            android:id="@+id/image8"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginRight="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/adhira8" />
+
+        <ImageView
+            android:id="@+id/image9"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginRight="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/adhira9" />
+
+        <ImageView
+            android:id="@+id/image10"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginRight="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/adhira10" />
+
+
+    </LinearLayout>
+    </HorizontalScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:background="@color/gray_light">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Adhira International School Survey No. 37 , 38 (p) Dhawale Nagar, Malwadi,Punawale, Pune: 411033."
+                android:textSize="14sp"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email: info@adhirainternationalschool.co.in"
+                android:textSize="14sp"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Website: www.adhirainternationalschool.in"
+                android:textSize="14sp"
+                android:paddingBottom="4dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Phone:  8539010101"
+                android:textSize="14sp"
+                android:paddingBottom="4dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

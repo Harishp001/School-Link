@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "946397891641",
+    "project_id": "school-bus-13ed6",
+    "storage_bucket": "school-bus-13ed6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946397891641:android:0098a63529b000680511e8",
+        "android_client_info": {
+          "package_name": "com.example.schoollink_2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfU--Coal2ERuBh3MyFS9B6Kmc35gOLGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

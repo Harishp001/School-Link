@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_start_trip"
+        android:title="Start Trip" />
+    <item
+        android:id="@+id/nav_status"
+        android:title="Status" />
+    <item
+        android:id="@+id/nav_notification"
+        android:title="Notification" />
+</menu>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_home"
+        android:icon="@drawable/car"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/bottom_notification"
+        android:icon="@drawable/bell"
+        android:title="Notification" />
+
+    <item
+        android:id="@+id/bottom_contact"
+        android:icon="@drawable/phone"
+        android:title="Contact" />
+
+    <item
+        android:id="@+id/bottom_profile"
+        android:icon="@drawable/profile"
+        android:title="Profile" />
+
+</menu>

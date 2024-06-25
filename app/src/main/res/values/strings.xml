@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SchoolLink</string>
+    <string name="app_name_splash">School-Link\n</string>
+    <string name="welcome_message">Welcome</string>
+    <string name="mission">We in Adhira International School believe that a happy child is a successful individual. We are committed to provide a confident, safe and energizing environment for children to learn. We make sure that all children should enjoy their learning, achieve their prospective and become responsible individual. We create education that gives learner ability to think autonomously.</string>
+    <string name="vision">Adhira International School creates a safe, effective learning environment that enables each student to reach his or her highest potential through ample opportunities to conquer. Our aim is to educate young mind and empower social, ethical and moral values through rigorous balanced curriculum which empower students to Pursue their dreams.</string>
+    <string name="info">Welcome to Adhira International School where originality meets multiple learning. Being an educational institution, Adhira International wishes to make their students think beyond boundaries. We believe in integrating all the essential values that will help our students to be at par with the competitive and the challenging world where they should emerge as a successful individual. Imbibing ethical values since Pre-Primary Classes is an important part of our curriculum.
+
+We always believe that “kids don’t listen, they observe you and follow you”.  Adhira International School always wants to implement the culture which child should adopt. Respecting elder, being courteous to others, following ethical values, believing in taking the right decision and most importantly, learning to be a good human being.  We consider our success in making every child a patriot, a good and responsible citizen not only for India but for the entire world.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBL5aAPe1dACunGqSGVMbNFgV24oFlnDMs</string>
+
+</resources>

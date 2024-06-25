@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/bus"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="School-Link"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_toEndOf="@id/logo_image"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/app_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track your child's school bus using School-link, get Notification and Updates."
+        android:layout_below="@id/logo_image"
+        android:layout_alignStart="@id/app_name"
+        android:textSize="14sp"
+        android:layout_marginTop="8dp"/>
+
+    <TextView
+        android:id="@+id/select_student_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Student from below List"
+        android:textStyle="bold"
+        android:layout_below="@id/app_description"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:id="@+id/student_search_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/select_student_heading"
+        android:layout_marginTop="8dp"
+        android:hint="Search Students"
+        android:minHeight="48dp" />
+
+    <ListView
+        android:id="@+id/student_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/student_search_box"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/goto_home_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to Home"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"/>
+
+</RelativeLayout>

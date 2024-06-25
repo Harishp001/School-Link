@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".driver.DeleteManageDriver"
+    android:background="@drawable/pagebkg">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/driverRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:paddingTop="0dp"
+        android:paddingBottom="1dp" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@color/lavender"
+        android:text="Delete"
+        android:textColor="#263238"
+        android:textSize="18sp"
+        android:onClick="onDeleteButtonClick"/>
+
+</LinearLayout>
