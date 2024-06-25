@@ -9,6 +9,6 @@
 We always believe that “kids don’t listen, they observe you and follow you”.  Adhira International School always wants to implement the culture which child should adopt. Respecting elder, being courteous to others, following ethical values, believing in taking the right decision and most importantly, learning to be a good human being.  We consider our success in making every child a patriot, a good and responsible citizen not only for India but for the entire world.</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBL5aAPe1dACunGqSGVMbNFgV24oFlnDMs</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">Enter google map key</string>
 
 </resources>
